@@ -2,7 +2,7 @@
 
 ## Description
 
-Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, providing a solid foundation for building modern, efficient, and maintainable Go applications.
+Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, optimized for Go Fiber. It provides a solid foundation for building modern, efficient, and maintainable web applications using the high-performance Fiber web framework.
 
 ## Features
 
@@ -28,44 +28,49 @@ Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, pr
 2. Navigate to the project directory:
 
    ```
-   cd Riseplus-go-boilerplate
+   cd riseplus-go-boilerplate
    ```
 
 3. Install dependencies:
 
    ```
-   go mod tidy
+   make tidy
    ```
 
 4. Run the application:
 
    ```
-   go run cmd/api/main.go
+   make run
    ```
 
 5. (Optional) Build and run with Docker:
    ```
-   docker build -t riseplus-go-boilerplate .
-   docker run -p 8080:8080 riseplus-go-boilerplate
+   make docker-build
+   make docker-run
    ```
 
 ## Project Structure
 
+```
 Riseplus-go-boilerplate/
-├── cmd/
-│ └── api/
-│ └── main.go
-├── internal/
-│ ├── api/
-│ ├── config/
-│ ├── models/
-│ ├── repository/
-│ ├── service/
-│ └── utils/
-├── pkg/
-├── scripts/
-├── .gitignore
-├── Dockerfile
-├── go.mod
-├── go.sum
-└── README.md
+├── cmd/                   # Command-line applications and entry points
+│   └── api/
+│       └── main.go        # Main entry point for the API
+├── internal/              # Private application and library code
+│   ├── api/               # API handlers and routes
+│   ├── config/            # Configuration management
+│   ├── models/            # Data models and structures
+│   ├── repository/        # Data access layer
+│   ├── service/           # Business logic layer
+│   └── utils/             # Utility functions and helpers
+├── pkg/                   # Library code that's ok to use by external applications
+├── scripts/               # Scripts for development, CI/CD, etc.
+├── .gitignore             # Specifies intentionally untracked files to ignore
+├── Dockerfile             # Instructions for building a Docker container
+├── go.mod                 # Go module definition and dependency management
+├── go.sum                 # Checksums of the dependencies
+└── README.md              # Project documentation and information
+```
+
+
+
