@@ -1,5 +1,9 @@
 # Riseplus-go-boilerplate
 
+<p align="center">
+  <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go Logo" width="300" height="100">
+</p>
+
 ## Description
 
 Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, optimized for Go Fiber. It provides a solid foundation for building modern, efficient, and maintainable web applications using the high-performance Fiber web framework.
@@ -52,7 +56,7 @@ Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, op
 ## Project Structure
 
 ```
-Riseplus-go-boilerplate/
+riseplus-go-boilerplate/
 ├── cmd/                   # Command-line applications and entry points
 │   └── api/
 │       └── main.go        # Main entry point for the API
@@ -71,6 +75,3 @@ Riseplus-go-boilerplate/
 ├── go.sum                 # Checksums of the dependencies
 └── README.md              # Project documentation and information
 ```
-
-
-
