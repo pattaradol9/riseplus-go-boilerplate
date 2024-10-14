@@ -1,14 +1,18 @@
 # Riseplus-go-boilerplate
 
+[![Go Test](https://github.com/pattaradol9/riseplus-go-boilerplate/actions/workflows/go-test.yml/badge.svg)](https://github.com/pattaradol9/riseplus-go-boilerplate/actions/workflows/go-test.yml)
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/pattaradol9/riseplus-go-boilerplate)](https://goreportcard.com/report/github.com/pattaradol9/riseplus-go-boilerplate)
+
+[![Release](https://img.shields.io/github/v/release/pattaradol9/riseplus-go-boilerplate.svg)](https://github.com/pattaradol9/riseplus-go-boilerplate/releases)
+
 <p align="center">
   <img src="https://gofiber.io/assets/images/logo.svg" alt="Go Fiber Logo" width="400" height="200">
 </p>
 
-
 ## Description
 
 Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, optimized for Go Fiber. It provides a solid foundation for building modern, efficient, and maintainable web applications using the high-performance Fiber web framework.
-
 
 ## Features
 
@@ -18,12 +22,10 @@ Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, op
 - Logging and error handling
 - Optimized for performance
 
-
 ## Prerequisites
 
 - Go 1.23.2 or higher
 - Docker (optional, for containerization)
-
 
 ## Getting Started
 
@@ -58,6 +60,7 @@ Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, op
    ```
 
 6. (Optional) Build and run with Docker:
+
    ```
    make docker-build
    make docker-run
@@ -67,7 +70,6 @@ Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, op
    ```
    make docker-test
    ```
-
 
 ## Quick Start
 
@@ -81,7 +83,6 @@ Before you begin, it's recommended to change the module name in `go.mod` to matc
 3. Run `go mod tidy` to update dependencies
 
 This ensures that your project has a unique module name, which is important for proper Go package management.
-
 
 ## Project Structure
 
@@ -108,7 +109,6 @@ riseplus-go-boilerplate/
 └── README.md              # Project documentation and information
 ```
 
-
 ## Makefile
 
 The Makefile is used to manage the project. It provides a set of commands to build, clean, run, test, and lint the project.
@@ -127,3 +127,7 @@ The Makefile is used to manage the project. It provides a set of commands to bui
 - `make tidy`: Run tidy
 - `make upgrade`: Upgrade dependencies to latest versions
 - `make help`: Show help
+
+## Contact
+
+If you have any questions or need further assistance, please contact me at [pattaradol.n@riseplus.tech](mailto:pattaradol.n@riseplus.tech).
