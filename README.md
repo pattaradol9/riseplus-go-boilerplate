@@ -1,7 +1,7 @@
 # Riseplus-go-boilerplate
 
 <p align="center">
-  <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go Logo" width="300" height="100">
+  <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go Logo" width="500" height="300">
 </p>
 
 ## Description
@@ -52,6 +52,21 @@ Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, op
    make docker-build
    make docker-run
    ```
+
+
+## Quick Start
+
+Before you begin, it's recommended to change the module name in `go.mod` to match your project:
+
+1. Open `go.mod` file
+2. Replace the module name:
+   ```
+   module github.com/yourusername/your-project-name
+   ```
+3. Run `go mod tidy` to update dependencies
+
+This ensures that your project has a unique module name, which is important for proper Go package management.
+
 
 ## Project Structure
 
