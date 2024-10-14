@@ -1,10 +1,6 @@
 # Riseplus-go-boilerplate
 
-[![Go Test](https://github.com/pattaradol9/riseplus-go-boilerplate/actions/workflows/go-test.yml/badge.svg)](https://github.com/pattaradol9/riseplus-go-boilerplate/actions/workflows/go-test.yml)
-
-[![Go Report Card](https://goreportcard.com/badge/github.com/pattaradol9/riseplus-go-boilerplate)](https://goreportcard.com/report/github.com/pattaradol9/riseplus-go-boilerplate)
-
-[![Release](https://img.shields.io/github/v/release/pattaradol9/riseplus-go-boilerplate.svg)](https://github.com/pattaradol9/riseplus-go-boilerplate/releases)
+[![Go Test](https://github.com/pattaradol9/riseplus-go-boilerplate/actions/workflows/go-test.yml/badge.svg)](https://github.com/pattaradol9/riseplus-go-boilerplate/actions/workflows/go-test.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/pattaradol9/riseplus-go-boilerplate)](https://goreportcard.com/report/github.com/pattaradol9/riseplus-go-boilerplate) [![Release](https://img.shields.io/github/v/release/pattaradol9/riseplus-go-boilerplate.svg)](https://github.com/pattaradol9/riseplus-go-boilerplate/releases)
 
 <p align="center">
   <img src="https://gofiber.io/assets/images/logo.svg" alt="Go Fiber Logo" width="400" height="200">
