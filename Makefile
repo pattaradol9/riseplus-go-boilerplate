@@ -12,7 +12,7 @@ MAIN_PATH=cmd/api/main.go
 # Make is verbose in Linux. Make it silent.
 MAKEFLAGS += --silent
 
-.PHONY: all build clean run test coverage deps lint vet fmt tidy help
+.PHONY: all build clean run test coverage deps lint vet fmt tidy help upgrade
 
 all: test build ## Run tests and build the project
 
@@ -57,6 +57,11 @@ fmt: ## Format code
 
 tidy: ## Tidy up modules
 	@echo "Tidying up modules..."
+	$(GOMOD) tidy
+
+upgrade: ## Upgrade dependencies to latest versions
+	@echo "Upgrading dependencies..."
+	$(GOGET) -u ./...
 	$(GOMOD) tidy
 
 build-linux: ## Cross-compile for Linux

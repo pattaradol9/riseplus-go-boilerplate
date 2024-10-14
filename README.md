@@ -1,7 +1,7 @@
 # Riseplus-go-boilerplate
 
 <p align="center">
-  <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go Logo" width="500" height="300">
+  <img src="https://gofiber.io/assets/images/logo.svg" alt="Go Fiber Logo" width="400" height="200">
 </p>
 
 
@@ -107,3 +107,23 @@ riseplus-go-boilerplate/
 ├── go.sum                 # Checksums of the dependencies
 └── README.md              # Project documentation and information
 ```
+
+
+## Makefile
+
+The Makefile is used to manage the project. It provides a set of commands to build, clean, run, test, and lint the project.
+
+### Makefile Commands
+
+- `make build`: Build the project
+- `make clean`: Clean up build artifacts
+- `make run`: Run the project
+- `make test`: Run tests
+- `make coverage`: Run tests with coverage
+- `make deps`: Check and get dependencies
+- `make lint`: Run linter
+- `make vet`: Run vet
+- `make fmt`: Run fmt
+- `make tidy`: Run tidy
+- `make upgrade`: Upgrade dependencies to latest versions
+- `make help`: Show help
