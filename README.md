@@ -4,9 +4,11 @@
   <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go Logo" width="500" height="300">
 </p>
 
+
 ## Description
 
 Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, optimized for Go Fiber. It provides a solid foundation for building modern, efficient, and maintainable web applications using the high-performance Fiber web framework.
+
 
 ## Features
 
@@ -16,10 +18,12 @@ Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, op
 - Logging and error handling
 - Optimized for performance
 
+
 ## Prerequisites
 
 - Go 1.23.2 or higher
 - Docker (optional, for containerization)
+
 
 ## Getting Started
 
@@ -41,16 +45,27 @@ Riseplus-go-boilerplate is a robust and scalable boilerplate for Go projects, op
    make tidy
    ```
 
-4. Run the application:
+4. Run tests:
+
+   ```
+   make test
+   ```
+
+5. Run the application:
 
    ```
    make run
    ```
 
-5. (Optional) Build and run with Docker:
+6. (Optional) Build and run with Docker:
    ```
    make docker-build
    make docker-run
+   ```
+
+7. (Optional) Run tests in Docker:
+   ```
+   make docker-test
    ```
 
 
@@ -79,11 +94,13 @@ riseplus-go-boilerplate/
 │   ├── api/               # API handlers and routes
 │   ├── config/            # Configuration management
 │   ├── models/            # Data models and structures
-│   ├── repository/        # Data access layer
-│   ├── service/           # Business logic layer
+│   ├── middleware/        # Middleware layer
+│   ├── repositories/      # Data access layer
+│   ├── services/          # Business logic layer
+│   ├── server/            # Server layer
+│   ├── handlers/          # Handler layer
 │   └── utils/             # Utility functions and helpers
 ├── pkg/                   # Library code that's ok to use by external applications
-├── scripts/               # Scripts for development, CI/CD, etc.
 ├── .gitignore             # Specifies intentionally untracked files to ignore
 ├── Dockerfile             # Instructions for building a Docker container
 ├── go.mod                 # Go module definition and dependency management
